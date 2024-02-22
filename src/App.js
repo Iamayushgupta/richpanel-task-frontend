@@ -11,6 +11,7 @@ function App() {
 
   const handleRegister = (formData) => {
     console.log('Register with', formData);
+    setUser({ ...formData }); 
   };
 
   const handleLogin = (formData) => {
